@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./dist/cjs",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "paths": { "@/*": ["src/*"] },
+    "declaration": true,
+    "sourceMap": true,
+    "types": ["jest"]
+  },
+  "exclude": ["node_modules", "dist", "docs", "test"]
+}
