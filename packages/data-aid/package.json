@@ -1,10 +1,10 @@
 {
   "name": "tms-data-aid",
-  "description": "数据处理工具库。",
+  "description": "围绕JSONSchema的数据处理工具库，包括：JSONSchema的解析等。",
   "author": "jasony62",
   "license": "MIT",
   "version": "0.0.1",
-  "type": "module",
+  "type": "commonjs",
   "main": "./dist/esm/index.js",
   "exports": {
     ".": {
