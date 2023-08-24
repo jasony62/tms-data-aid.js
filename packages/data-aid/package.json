@@ -3,14 +3,12 @@
   "description": "围绕JSONSchema的数据处理工具库，包括：JSONSchema的解析等。",
   "author": "jasony62",
   "license": "MIT",
-  "version": "0.0.1",
-  "type": "commonjs",
+  "version": "0.0.2",
+  "type": "module",
   "main": "./dist/esm/index.js",
   "exports": {
     ".": {
-      "node": {
-        "default": "./dist/cjs/index.js"
-      },
+      "require": "./dist/cjs/index.js",
       "default": {
         "default": "./dist/esm/index.js"
       }
@@ -27,11 +25,11 @@
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/lodash.set": "^4.3.7",
-    "@types/node": "^18.11.18",
+    "@types/node": "^20.5.4",
     "jest": "^29.4.1",
-    "rimraf": "^4.1.2",
+    "rimraf": "^5.0.1",
     "ts-jest": "^29.0.5",
-    "typescript": "^4.9.5"
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "debug": "^4.3.4",

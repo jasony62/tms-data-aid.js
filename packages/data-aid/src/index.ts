@@ -1,2 +1,3 @@
-export * from './json-schema/model'
-export * from './json-schema/builder'
+import { SchemaIter, SchemaProp } from './json-schema/model.js'
+
+export { SchemaIter, SchemaProp }
